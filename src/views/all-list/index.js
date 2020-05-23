@@ -5,6 +5,7 @@ export default class AllList extends React.Component {
   render() {
     return (
       <div className="all-listbox" style={{ color: "#FFF" }}>
+        <div>article</div>
         <div className="allist-year-railing">
           <span>2020</span>
         </div>
