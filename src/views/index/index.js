@@ -14,24 +14,17 @@ export default class Home extends React.Component {
           </div>
           <div className="homec-middle__welcome">welcome to my website</div>
           <ul className="homec-middle__nav">
-            <li>
+            {/* <li>
               <Link to="/">博客主页</Link>
-              {/* <a href="/">博客主页</a> */}
-            </li>
+            </li> */}
             <li>
               <Link to="/blog">所有文章</Link>
-
-              {/* <a href="/blog">所有文章</a> */}
             </li>
-            <li>
+            {/* <li>
               <Link to="/tags">标签</Link>
-
-              {/* <a href="/tags">标签</a> */}
-            </li>
+            </li> */}
             <li>
               <Link to="/about">关于我</Link>
-
-              {/* <a href="/about">关于我</a> */}
             </li>
           </ul>
         </div>
