@@ -1,14 +1,15 @@
 
 
-export default {
-  path: '/',
-  name: 'home',
-  component: 'Layout',
-  childrens: [
-    {
-      path: '',
-      name: 'index',
-      component: 'home',
-    },
-  ]
-}
+export default [
+  {
+    path: '/',
+    name: 'home',
+    component: 'Layout'
+  },
+  {
+    path: '/blog',
+    name: '博客',
+    component: 'blogs',
+  },
+  // ...
+]
