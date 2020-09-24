@@ -1,15 +1,8 @@
 # React技术栈+Express+Mongodb实现个人博客
-
-> 该项目暂停维护，欢迎关注后续开源的个人网站
-
-## 说明
-
-> 采用其他人的模板进行二次开发。 
+> 模板二次开发博客
 
 ## 功能描述
-
 ***前端部分***
-
 - [x] 文章列表展示
 - [x] 文章分类
 - [x] 登录管理
@@ -37,12 +30,7 @@
 - [x] Mongodb
 - [x] Mongoose
 
-## TODO
-
-- 文章评论 
-
 ## 项目运行效果
-
 - 首页
 ![index](./record/2017-09-28%2010_25_45.gif)
 
@@ -68,9 +56,7 @@
 ![modifiedArticle](./record/modifiedArticle.gif)
 
 ## 项目介绍
-
-这个demo就是一个简单的增删改查的博客demo。前端用react技术栈、后端是express+mongoose。
-
+> 简单的增删改查的博客demo。前端用react技术栈、后端是express+mongoose。
 
 ## 环境
 
@@ -78,6 +64,7 @@
 node @7.9.0
 db @3.4.0
 ...
+
 别的就直接npm install 了
 
 注意MongoDB初始化后需要初始化一个admin/admin账户，用于登录后台管理
@@ -103,7 +90,5 @@ db @3.4.0
 > 链接: https://pan.baidu.com/s/1c3aedw8 密码: 5ii1
 
 ###### reference
-[参考网址](https://github.com/Nealyang/React-Express-Blog-Demo)
-
-
-
+[参考网址](https://github.com/Nealyang/React-Express-Blog-Demo)     
+[参考Codes](https://github.com/alvin0216/react-blog)

@@ -6,8 +6,8 @@ module.exports = {
     dbHost:"localhost",
     dbPort:"27017",
     app:{
-        title:"personal blog",
-        description:'Nealyang\'s personal blog demo',
+        title:"Xu Tongze's blog",
+        description:'Xu Tongze\'s blog',
         head:{
             titleTemplate:'blog',
             meta:[
@@ -15,8 +15,15 @@ module.exports = {
                     name:"description",
                     content:"react express demo"
                 },
-                {charset:"utf-8"}
+                {
+                    charset:"utf-8"
+                }
             ]
         }
-    }
+    },
+    dbConfigs: {
+        host: "127.0.0.1",
+        port: "27017",
+        outLogPath: '',
+    },
 };
